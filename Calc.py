@@ -8,11 +8,14 @@ Rezult = int()
 RezultView = StringVar()
 
 
-Label(text="A", padx="15", pady="6", font="15").pack()
-Entry(TK, takefocus=True,).pack()
-Label(text="B", padx="15", pady="6", font="15").pack()
-Entry(TK, takefocus=True,).pack()
-
+LabA = Label(text="A", padx="15", pady="6", font="15")
+LabA.pack()
+EntrA = Entry(TK, takefocus=True,)
+EntrA.pack()
+LabB = Label(text="B", padx="15", pady="6", font="15")
+LabB.pack()
+EntrB = Entry(TK, takefocus=True,)
+EntrB.pack()
 
 tv.set("=")
 
@@ -29,6 +32,20 @@ BtnUmnoz.pack(side=LEFT, fill=NONE)
 BtnRazdel = Button(text="/", background="#555", foreground="#ccc", padx="15", pady="6", font="15")
 BtnRazdel.pack(side=LEFT, fill=NONE)
 
+#def rezult(a,b):
+#	c = a+b
+#	return c
+
+#def inserter(value):
+#    LabelRezult.delete("0.0","end")
+#    LabelRezult.insert("0.0",value)
+
+
+#def Plus():
+#  try:
+#	a = float(EntrA.get())
+#	b = float(EntrB.get())
+#	inserter(rezult(c)
 
 TK.title("Калькулятор")
 TK.geometry("400x300")
