@@ -1,7 +1,7 @@
 from tkinter import *
  
 root = Tk()
-root.title("Графическая программа на Python")
+root.title("Калькулятор")
 root.geometry("400x300")
  
 root.mainloop()
